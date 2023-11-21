@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Gabarito:wght@500&family=Lato&family=Montserrat&family=Mukta:wght@600&family=MuseoModerno:wght@600&family=Open+Sans&family=PT+Sans:wght@700&family=Pixelify+Sans:wght@600&family=Poppins:wght@500&family=REM:wght@300&family=Roboto&family=Roboto+Condensed&family=Roboto+Slab&family=Tilt+Neon&display=swap');
+
+* {
+  font-family: 'roboto';
+}
+
 .container {
   width: 25%;
   text-align: center;
@@ -77,4 +83,12 @@ img {
 
 .buy:hover {
   background-color: #2980b9;
+}
+
+h3 {
+  margin-top: -10px;
+}
+
+p {
+  margin-top: -10px;
 }
