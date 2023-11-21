@@ -4,6 +4,11 @@
   font-family: 'roboto';
 }
 
+a:link, :visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   width: 25%;
   text-align: center;
@@ -91,4 +96,13 @@ h3 {
 
 p {
   margin-top: -10px;
+}
+
+#back {
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+#back:hover {
+  color: lightcoral;
 }
