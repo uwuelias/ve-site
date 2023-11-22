@@ -1,34 +1,3 @@
-const defaultpic = document.getElementById('default');
-const blackdefault = document.getElementById('black-default');
-const bluedefault = document.getElementById('blue-default');
-const mintdefault = document.getElementById('mint-default');
-const pinkdefault = document.getElementById('pink-default');
-const purpledefault = document.getElementById('purple-default');
-const whitedefault = document.getElementById('white-default');
-const yellowdefault = document.getElementById('yellow-default');
-
-blackdefault.addEventListener('click', function() {
-    defaultpic.src='default/black.png';
-})
-bluedefault.addEventListener('click', function() {
-    defaultpic.src='default/blue.png';
-})
-mintdefault.addEventListener('click', function() {
-    defaultpic.src='default/mint.png'
-})
-pinkdefault.addEventListener('click', function() {
-    defaultpic.src='default/pink.png'
-})
-purpledefault.addEventListener('click', function() {
-    defaultpic.src='default/purple.png'
-})
-whitedefault.addEventListener('click', function() {
-    defaultpic.src='default/white.png'
-})
-yellowdefault.addEventListener('click', function() {
-    defaultpic.src='default/yellow.png'
-})
-
 
 const catyarn = document.getElementById('cat-yarn');
 const blackyarn = document.getElementById('black-cat-yarn');
