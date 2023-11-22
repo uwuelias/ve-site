@@ -1,4 +1,3 @@
-
 const catyarn = document.getElementById('cat-yarn');
 const blackyarn = document.getElementById('black-cat-yarn');
 const blueyarn = document.getElementById('blue-cat-yarn');
@@ -7,6 +6,8 @@ const pinkyarn = document.getElementById('pink-cat-yarn');
 const purpleyarn = document.getElementById('purple-cat-yarn');
 const whiteyarn = document.getElementById('white-cat-yarn');
 const yellowyarn = document.getElementById('yellow-cat-yarn');
+const catball = document.getElementById('catball');
+
 
 blackyarn.addEventListener('click', function() {
     catyarn.src='cat on yarn ball/black yarn.png'

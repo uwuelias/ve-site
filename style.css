@@ -106,3 +106,14 @@ p {
 #back:hover {
   color: lightcoral;
 }
+
+.info-container {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container img{
+  width: 400px;
+}
